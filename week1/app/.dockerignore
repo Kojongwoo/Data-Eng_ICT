@@ -1,0 +1,5 @@
+Dockerfile.bad
+__pycache__/
+*.pyc
+.git/
+*.log
