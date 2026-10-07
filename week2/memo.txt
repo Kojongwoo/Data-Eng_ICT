@@ -1,0 +1,10 @@
+1. day2: CTE(Common Table Expression) & Window Function
+# CTE(With 절)
+WITH 이름 AS (쿼리)로 만드는 임시 결과, 해당 쿼리가 도는 동안만 존재함.
+서브 쿼리의 단점(안쪽부터 거꾸로 읽어야 함, 같은 집계를 여러 번 적게 됨)을 보완하기 위한 대체제
+CTE와 Window Function은 데이터 엔지니어가 가장 자주 사용하는 SQL 기능으로, 분석 쿼리이다.
+# 윈도우 함수
+1. SQL의 LAG() 함수는 현재 행을 기준으로 이전 행의 값을 가져오는 윈도우 함수
+day03: MongoDB 구축 및 비정형 로그 적재
+# 가상환경 설정
+가상환경: 프로젝트마다 라이브러리를 따로 두는 장치, 나갈 땐 deactivate / 다시 들어올 땐 source .venv/bin/activate
